@@ -1,0 +1,15 @@
+{
+  "base": {
+    "project": "some project",
+    "reportLink": "https://jenkins.autotests.cloud/job/aqa_UI_tests/",
+    "language": "en",
+    "messenger": "telegram",
+    "allureFolder": "allure-report",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "7394722425:AAEEpu6xWVUQAEGmdG727QkjwE7VKYvXgEo",
+    "chat": "-1002184336700",
+    "replyTo": ""
+  }
+}
