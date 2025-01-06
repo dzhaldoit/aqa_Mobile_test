@@ -39,7 +39,7 @@ public class TestBase {
     @BeforeEach
     void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        closeWebDriver();
+        open();
 
     }
 
