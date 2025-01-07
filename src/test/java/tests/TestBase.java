@@ -46,9 +46,10 @@ public class TestBase {
     void addAttachments() {
         String sessionId = Selenide.sessionId().toString();
         Attach.pageSource();
-        closeWebDriver();
         if ("browserstack".equals(System.getProperty("deviceHost"))) {
             Attach.addVideo(sessionId);
+
+        closeWebDriver();
         }
     }
 }
